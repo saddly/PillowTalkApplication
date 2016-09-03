@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/flower"/>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最近一次来姨妈"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_healthycome_date"
+            android:text="2016-09-02"/>
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_healthystatecome_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="告诉他，姨妈走了"/>
+</LinearLayout>

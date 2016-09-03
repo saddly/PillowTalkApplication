@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flower"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="你已停用了小姨妈"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:lines="2"
+        android:layout_height="wrap_content"
+        android:text="点击下面的按钮，重新让他第一时间知道你来那个了吧"/>
+    <Button
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:id="@+id/bt_healthystateclose_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="恢复使用"/>
+
+
+</LinearLayout>
